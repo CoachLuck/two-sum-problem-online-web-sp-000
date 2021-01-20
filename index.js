@@ -17,4 +17,4 @@ function hashTwoSum(sum, hash) {
   let found = []
 }
 
-console.log(hash)
+console.log(a)
