@@ -1,18 +1,18 @@
 let array = [2, 3, 4, 3, 6, 7]
 let sum = 6
-function bruteForceTwoSum(arr, um) {
+function bruteForceTwoSum(arr, sum) {
 
 }
 
-function binarySearchTwoSum() {
+function binarySearchTwoSum(arr, sum) {
 
 }
 
-function binaryMatch() {
+function binaryMatch(arr, num) {
 
 }
 
-function hashTwoSum(sum, arr) {
+function hashTwoSum(arr, sum) {
   let found = []
 }
 
