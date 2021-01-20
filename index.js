@@ -11,7 +11,7 @@ function binarySearchTwoSum(arr, sum) {
 
 function binaryMatch(arr, num) {
   let find = arr[0];
-  conosle.log(find)
+  console.log(find)
 }
 
 function hashTwoSum(arr, sum) {
