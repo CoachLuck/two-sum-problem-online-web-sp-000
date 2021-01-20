@@ -15,9 +15,6 @@ function binaryMatch() {
 
 function hashTwoSum(sum, hash) {
   let found = []
-  while (hash.length > 0) {
-    if (hash[0])
-  }
 }
 
 console.log(hash)
