@@ -14,7 +14,7 @@ function binaryMatch(arr, num) {
 }
 
 function hashTwoSum(arr, sum) {
-  let found = [0];
+  let found = [1];
   for (let i = 0; i < arr.length / 2; i++) {
     let cur = arr[i];
     for (let j = 0; j < arr.length; j++) {
