@@ -18,4 +18,4 @@ function hashTwoSum(arr, sum) {
   let found = []
 }
 
-console.log(a)
+console.log(binaryMatch(array, 6))
