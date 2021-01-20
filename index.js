@@ -23,6 +23,8 @@ function hashTwoSum(arr, sum) {
       }
     }
   }
+
+  return found
 }
 
 console.log(binaryMatch(array, 6))
