@@ -10,13 +10,19 @@ function binarySearchTwoSum(arr, sum) {
 }
 
 function binaryMatch(arr, num) {
-  let find = arr[0];
-    console.log(find)
-  return arr[0] + arr[1] != num ? arr.shift() : true;
+
 }
 
 function hashTwoSum(arr, sum) {
   let found = []
+  for (let i = 0; i < arr.length / 2; i++) {
+    let cur = arr[i];
+    for (let j = 0; j < arr.length; j++) {
+      if (cur + arr[j] == num) {
+        found.push(cur.concat(arr[j]))
+      }
+    }
+  }
 }
 
 console.log(binaryMatch(array, 6))
