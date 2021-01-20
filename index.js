@@ -19,7 +19,7 @@ function hashTwoSum(arr, sum) {
     let cur = arr[i];
     for (let j = 0; j < arr.length; j++) {
       if (cur + arr[j] == sum) {
-        found.push(cur.concat(arr[j]))
+        found.push(concat(arr[j] + arr[i]))
       }
     }
   }
